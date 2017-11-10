@@ -1,7 +1,7 @@
 FROM resin/armv7hf-debian-qemu
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV PROMETHEUS_VERSION 1.8.2
+ENV PROMETHEUS_VERSION 2.0.0
 
 RUN [ "cross-build-start" ]
 
